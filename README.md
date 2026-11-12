@@ -8,20 +8,20 @@ A growing portfolio of digital design projects implemented in Verilog/SystemVeri
 - **03_Registers** — 4-bit register and SISO, SIPO, PISO, PIPO shift registers
 - **04_Arithmetic_Designs** — 4-bit ALU
 - **05_Counters** — counter designs (being added)
-- **06_FSM** — finite-state-machine designs (planned)
+- **06_FSM** — finite-state-machine designs (101 Moore sequence detector)
 - **07_SystemVerilog_Verification** — verification exercises (planned)
 
 ## Tools
-Icarus Verilog · Verilator · GTKWave · Verilog HDL · SystemVerilog
+Icarus Verilog · Verilator · Surfer · Verilog HDL · SystemVerilog
 
 ## Run a Verilog project
-From a project directory containing `rtl.v` and `tb.v`:
+From a project directory containing the RTL and testbench source files (for example, `rtl.sv` and `tb.sv`):
 ```bash
 iverilog -g2012 -o sim rtl.v tb.v
 vvp sim
 ```
 
 ## About
-This is an evolving engineering portfolio. Existing projects are consolidated here while their original standalone repositories remain unchanged. Counter and advanced verification projects will be added as their source files are published.
+This is an evolving engineering portfolio. Existing projects are consolidated here while their original standalone repositories remain unchanged. FSM and verification projects will be added as their source files are completed and verified. Current simulation workflow uses native Windows PowerShell with Icarus Verilog and Surfer (no WSL).
 
 **Snehul Mistry** · Electronics & Communication Engineering
